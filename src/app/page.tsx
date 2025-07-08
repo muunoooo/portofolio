@@ -1,11 +1,15 @@
-import Hero3D from "@/components/Hero3D";
-import HeroOverlay from "@/components/HeroOverlay";
+import AboutPage from "@/pages/About";
+import ContactPage from "@/pages/Contact";
+import HeroPage from "@/pages/Hero";
+import ProjectPage from "@/pages/Project";
 
 export default function Home() {
   return (
     <section className="relative h-screen bg-black">
-      <Hero3D />
-      <HeroOverlay />
+      <HeroPage />
+      <AboutPage />
+      <ProjectPage />
+      <ContactPage />
     </section>
   );
 }
