@@ -62,7 +62,7 @@ export default function HeroPage() {
           className="relative w-40 h-40 sm:w-52 sm:h-52 md:w-64 md:h-64 rounded-3xl overflow-hidden bg-white/20 backdrop-blur-md shadow-xl border border-white/30 transform rotate-3 "
         >
           <Image
-            src="/muno.png"
+            src="/porto-muno.jpeg"
             alt="Foto Muhammad Naufal"
             fill
             className="object-cover"
