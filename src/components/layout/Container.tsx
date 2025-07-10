@@ -9,9 +9,7 @@ type Props = {
 
 export default function Container(props: Props) {
   return (
-    <section
-      className={`relative mx-auto max-w-7xl px-6 w-full ${props.class} `}
-    >
+    <section className={`px-6 py-24 md:px-32 text-[#1f2937] ${props.class} `}>
       {props.children}
     </section>
   );

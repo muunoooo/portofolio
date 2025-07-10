@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 import { IconType } from "react-icons";
+import Image from "next/image";
 
 type ProjectItemProps = {
   imageUrl: string;
@@ -18,11 +19,15 @@ export default function ProjectItem({
 }: ProjectItemProps) {
   return (
     <div className="flex flex-col md:flex-row items-start gap-8">
-      <img
-        src={imageUrl}
-        alt={title}
-        className="w-full md:w-1/2 rounded-xl shadow-md object-cover"
-      />
+      <div className="w-full md:w-1/2 relative aspect-[16/9] rounded-xl shadow-md overflow-hidden">
+        <Image
+          src={imageUrl}
+          alt={title}
+          fill
+          className="object-cover rounded-xl"
+          sizes="(min-width: 768px) 50vw, 100vw"
+        />
+      </div>
       <div className="flex-1">
         <h2 className="text-2xl font-bold text-[#06202B]">{title}</h2>
         <p className="mt-2 text-lg">{description}</p>

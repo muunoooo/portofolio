@@ -56,7 +56,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          Hi, I'm <span className="text-sky-300">Muhammad Naufal</span>
+          Hi, I&apos;m <span className="text-sky-300">Muhammad Naufal</span>
         </motion.h1>
 
         {/* Typing effect */}

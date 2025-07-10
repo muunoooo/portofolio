@@ -5,15 +5,15 @@ export default function AboutPage() {
     <main className="min-h-screen px-6 py-24 md:px-32 bg-white text-[#1f2937]">
       <div className="max-w-3xl mx-auto space-y-6 text-lg leading-relaxed">
         <h1 className="text-4xl font-bold text-[#06202B]">
-          Hi! I'm Muhammad Naufal.
+          Hi! I&apos;m Muhammad Naufal.
         </h1>
 
         <h2 className="text-2xl">Fullstack Developer based in Indonesia.</h2>
 
         <p>
-          I'm a full-stack web developer who made a career transition from
+          I&apos;m a full-stack web developer who made a career transition from
           geological engineering into the tech industry. Since starting my
-          coding journey in 2024, I've focused on building responsive,
+          coding journey in 2024, I&apos;ve focused on building responsive,
           user-friendly web applications using modern technologies like{" "}
           <strong>React</strong>, <strong>Next.js</strong>,{" "}
           <strong>Tailwind CSS</strong>, <strong>Supabase</strong>, and{" "}
@@ -22,7 +22,7 @@ export default function AboutPage() {
 
         <p>
           With experience in both frontend and backend development, I enjoy
-          crafting clean, efficient, and scalable solutions—whether it's
+          crafting clean, efficient, and scalable solutions—whether it&apos;s
           designing a dynamic landing page, building a dashboard CMS, or
           integrating APIs. My background in engineering has equipped me with
           strong problem-solving, adaptability, and teamwork skills that I now
@@ -30,8 +30,8 @@ export default function AboutPage() {
         </p>
 
         <p>
-          I'm currently working as a freelance developer while continuously
-          learning and building real-world projects. I’ve contributed to
+          I&apos;m currently working as a freelance developer while continuously
+          learning and building real-world projects. I&apos;ve contributed to
           applications ranging from sport management platforms to CMS tools and
           geolocation-based services.
         </p>
@@ -44,25 +44,16 @@ export default function AboutPage() {
         <p>
           You can explore more of my work and interests on{" "}
           <Link
-            href="https://github.com/"
+            href="https://github.com/muunoooo"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
           >
             GitHub
           </Link>
-          ,
+          {" "}or{" "}
           <Link
-            href="https://dribbble.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:underline"
-          >
-            Dribbble
-          </Link>
-          or
-          <Link
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/muhammad-naufal04/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"

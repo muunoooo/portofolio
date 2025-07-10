@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm Muhammad Naufal
 
-## Getting Started
+**Fullstack Developer based in Indonesia**
 
-First, run the development server:
+I'm a full-stack web developer who made a career transition from geological engineering into the tech industry. Since starting my coding journey in 2024, I've focused on building responsive, user-friendly web applications using modern technologies like:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React**
+- **Next.js**
+- **Tailwind CSS**
+- **Supabase**
+- **Node.js**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+With experience in both frontend and backend development, I enjoy crafting clean, efficient, and scalable solutions — whether it's designing a dynamic landing page, building a CMS dashboard, or integrating APIs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+My background in engineering has equipped me with strong problem-solving, adaptability, and teamwork skills, which I now apply in building web-based products.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧩 Featured Projects
 
-To learn more about Next.js, take a look at the following resources:
+### 🧾 [Cashier Application](https://mister-bear-cashier-app.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> [Frontend Repo](https://github.com/muunoooo/cashier-FE)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A web-based cashier system where:
 
-## Deploy on Vercel
+- Admin can manage (CRUD) products
+- Cashiers can handle customer transactions
+- Admin can view product sales reports in real-time
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🧺 [Launderly Application](https://launderly.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> [Frontend Repo](https://github.com/muunoooo/launderly-FE)
+
+An online laundry service platform with:
+
+- Pickup & delivery features
+- Order scheduling
+- Midtrans integration for secure payments
+
+---
+
+## 🚀 Currently
+
+I'm working as a **fronntend engineer** while continuously learning and building real-world projects. I’ve contributed to platforms ranging from sport management tools to CMS systems and geolocation-based services.
+
+Outside of development, I enjoy exploring:
+
+- UI/UX trends
+- Startup tech stacks
+- Helping friends turn ideas into working MVPs
+
+---
+
+## 📫 Let's Connect
+
+- GitHub: [@muunoooo](https://github.com/muunoooo)
+- LinkedIn: [Muhammad Naufal](https://www.linkedin.com/in/muhammad-naufal04/)
