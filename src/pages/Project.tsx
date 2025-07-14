@@ -9,6 +9,29 @@ export default function ProjectPage() {
 
       <section className="mt-12 max-w-3xl mx-auto space-y-6 text-lg leading-relaxed">
         <ProjectItem
+          imageUrl="/porto-exteur.png"
+          title="Sports Field Booking Platform"
+          description="An online booking system for sports fields, featuring role-based access (admin & user), real-time availability filtering, CRUD operations, and booking confirmation via email. Fully responsive and integrated with a payment gateway for seamless transactions and automated status updates."
+          links={[
+            {
+              href: "https://dashboard-product.aluesagd.com/",
+              label: "Website",
+            },
+          ]}
+        />
+
+        <ProjectItem
+          imageUrl="/porto-LAI.png"
+          title="Sport Management Application"
+          description="A web-based sport management system designed for managing players, teams, tournaments, news, and FAQs. Features include role-based access for admins and users, CRUD operations, and a fully responsive interface optimized for mobile and desktop."
+          links={[
+            {
+              href: "https://liga-anak.aluesagd.com/",
+              label: "Website",
+            },
+          ]}
+        />
+        <ProjectItem
           imageUrl="/porto-launderly.png"
           title="Launderly Application"
           description="An online laundry service application with pickup and delivery features. Users can place orders, schedule pickups, and make secure payments through Midtrans integration."
